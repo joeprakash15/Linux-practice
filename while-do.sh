@@ -2,6 +2,15 @@
 
 # Description: this is a basic while loop script, run for a certain number of seconds
 
+#run for a number of times
+c=1
+echo
+while [ $c -le 5 ]; do
+        echo "Welcome $c times"
+        ((c++))
+done
+
+#run for a certain number of seconds
 echo
 count=0
 num=10
